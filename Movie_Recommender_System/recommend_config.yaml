@@ -1,0 +1,15 @@
+dataset:
+ ratings_file: 'Dataset/ratings.csv'
+ movies_file: 'Dataset/movies.csv'
+
+title_recommender:
+ records: 30000
+ k: 15
+
+user_recommender:
+ metric: 'cosine'
+ k: 15
+
+output_data_folder:
+ title: 'Output/Title/title_{0}_recommender.csv'
+ user: 'Output/User/user_{0}_similarities.csv'
